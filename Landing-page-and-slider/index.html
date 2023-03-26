@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Landing Page</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="user" />
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <button id="toggle" class="toggle">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+
+      <h1>My Landing Page</h1>
+
+      <p>
+        Hi, I'm a web developer with a passion for creating intuitive and responsive websites that provide a great user experience. I have extensive experience in web development and specialize in front-end technologies such as HTML, CSS, JavaScript, and React.
+      </p>
+
+      <button class="cta-btn" id="open">Sign Up</button>
+    </header>
+
+    <div class="container">
+      <h2>My Experience</h2>
+      <p>
+        I have been working as a web developer for over 5 years and have developed a wide range of websites, from small brochure sites to large e-commerce platforms. 
+      </p>
+      <p>
+        During this time, I have honed my skills in HTML, CSS, JavaScript, and React, as well as gained experience with various content management systems and e-commerce platforms.
+      </p>
+
+      <h2>My Approach</h2>
+
+      <p>
+        I believe that the key to creating great websites is understanding the needs of the user. That's why I always start my projects by getting to know the client and their audience. I then use this information to create a website that not only looks great but also provides a great user experience.
+      </p>
+
+      <h2>My Portfolio</h2>
+      <p>
+        Here are some examples of my work:
+      </p>
+      <ul>
+        <li>Example Project 1</li>
+        <li>Example Project 2</li>
+        <li>Example Project 3</li>
+      </ul>
+
+      <p>
+        A web developer is responsible for creating, designing, and maintaining websites and web applications. They use programming languages such as HTML, CSS, and JavaScript to build websites and web applications that are functional, responsive, and visually appealing.
+      </p>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Sign Up</h3>
+        </div>
+        <div class="modal-content">
+          <p>Register with us to get offers, support and more</p>
+          <form class="modal-form">
+            <div>
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter Name"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter Email"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter Password"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="password2">Confirm Password</label>
+              <input
+                type="password"
+                id="password2"
+                placeholder="Confirm Password"
+                class="form-input"
+              />
+            </div>
+            <input type="submit" value="Submit" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
