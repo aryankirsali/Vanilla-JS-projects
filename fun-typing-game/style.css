@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #2c3e50;
+  background-color: #1a1a2e;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,6 +17,9 @@ button {
   font-size: 14px;
   border-radius: 4px;
   padding: 5px 15px;
+  background-color: #4f5d75;
+  color: #fff;
+  border: none;
 }
 
 select {
@@ -26,7 +29,8 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   border-radius: 0;
-  background-color: #a7c5e3;
+  background-color: #4f5d75;
+  color: #fff;
 }
 
 select:focus,
@@ -60,7 +64,7 @@ button:focus {
 }
 
 .container {
-  background-color: #34495e;
+  background-color: #2b2d42;
   padding: 20px;
   border-radius: 4px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
@@ -79,6 +83,7 @@ h2 {
 
 h1 {
   margin: 0;
+  color: #fff;
 }
 
 input {
@@ -88,18 +93,22 @@ input {
   width: 300px;
   padding: 12px 20px;
   margin-top: 10px;
+  background-color: #4f5d75;
+  color: #fff;
 }
 
 .score-container {
   position: absolute;
   top: 60px;
   right: 20px;
+  color: #fff;
 }
 
 .time-container {
   position: absolute;
   top: 60px;
   left: 20px;
+  color: #fff;
 }
 
 .end-game-container {
